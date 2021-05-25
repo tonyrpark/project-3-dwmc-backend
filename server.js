@@ -9,12 +9,12 @@ const path = require("path");
 const { signupHelpers } = require("./app/middlewares");
 // mongodb connection
 db.mongoose
-  .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
+  .connect(`mongodb+srv://tonyrpark:PqKbXn9g5oKiIKIw@cluster0.r0s9n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log(`successfuly connected to ${dbConfig.DB}`);
+    console.log(`successfuly connected to Database`);
   })
   .catch((err) => {
     console.log(`Connection error : ${err}`);
