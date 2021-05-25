@@ -48,7 +48,6 @@
     "express",
     "nodeJS"
   ],
-
   "author": "tony",
   "engines" : { "node" : ">=0.12" } },
   "license": "ISC",
@@ -69,4 +68,3 @@
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
-}
