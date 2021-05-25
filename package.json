@@ -1,17 +1,24 @@
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:package.json
 {
   "name": "user-auth-mern",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+    "engines": {
+    "node": ">=14.10" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-  },
+  }
+  ,
   "keywords": [
     "express",
     "nodeJS"
   ],
-  "author": "sultan",
+  "author": "Tony",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
@@ -31,3 +38,47 @@
     "nodemon": "^2.0.7"
   }
 }
+========
+>>>>>>> 3dd159bd1dac7483a22fe7d5ff9796751335d4b8
+{
+  "name": "user-auth-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "nodeJS"
+  ],
+<<<<<<< HEAD
+  "author": "sultan",
+=======
+  "author": "tony",
+  "engines" : { "node" : ">=0.12" } },
+>>>>>>> 3dd159bd1dac7483a22fe7d5ff9796751335d4b8
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-wallets": "^1.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.6",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "path": "^0.12.7",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
+<<<<<<< HEAD
+=======
+>>>>>>>> 3dd159bd1dac7483a22fe7d5ff9796751335d4b8:back-end/package.json
+>>>>>>> 3dd159bd1dac7483a22fe7d5ff9796751335d4b8
